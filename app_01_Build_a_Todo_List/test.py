@@ -1,2 +1,7 @@
-my_answer = input("What is your answer?")
-answers = ['Yes', 'No', 'Yes', 'No', my_answer]
+countries = []
+
+while True:
+    country = input("Enter the country: ")
+    countries.append(country)
+    print(countries)
+print(countries)
