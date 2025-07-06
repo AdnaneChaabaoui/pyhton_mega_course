@@ -1,7 +1,4 @@
-countries = []
+items = ["sandals", "glasses", "trousers"]
 
-while True:
-    country = input("Enter the country: ")
-    countries.append(country)
-    print(countries)
-print(countries)
+for item in items:
+    print(item.capitalize())
