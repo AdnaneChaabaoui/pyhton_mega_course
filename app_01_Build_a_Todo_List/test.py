@@ -1,4 +1,4 @@
-items = ["sandals", "glasses", "trousers"]
+menu = ["pasta", "pizza", "salad"]
 
-for item in items:
-    print(item.capitalize())
+for i, j in enumerate(menu):
+    print(f"{i}.{j}")
